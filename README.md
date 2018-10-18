@@ -19,11 +19,11 @@ For any issues running scripts in this repository, please email at `avoda@nevada
 
 Navigate with the terminal to the circRCM_knockout folder and run:
 
-python Script.py
+`python Script.py`
 
 
 ## Input
 
 Just insert the coordinates of the introns flanking the circRNA.
-Example: for Circ_0000333, chrIII, +, 1927947, 1929102, 1918723, 1927649
+Example: for Circ_0000333, `chrIII, +, 1927947, 1929102, 1918723, 1927649`
 (chromosome in ce11 genome, strand, intron 1 start, intron 1 end, intron 2 start, intron 2 end)
