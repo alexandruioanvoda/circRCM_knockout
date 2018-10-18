@@ -11,6 +11,8 @@ chmod +x ./*
 The installation and runs were tested on Ubuntu 18
 
 The following dependencies need to be installed: `Python 3, biopython, bedtools`
+Also, the ce11 genome needs to be downloaded in the circRCM_knockout folder. This terminal one-liner will do it:
+`wget -c http://hgdownload.cse.ucsc.edu/goldenPath/ce11/bigZips/chromFa.tar.gz -O - | gzip -dc | tar -xO > ce11.fa`
 
 For any issues running scripts in this repository, please email at `avoda@nevada.unr.edu`
 
